@@ -5,7 +5,6 @@
 
 char str[391] = {0};
 int times[SIZE];
-//тестирую гит ещё раз и ещё раз
 void filling() {
     FILE *filein = fopen("NASA_access_log_Jul95.txt", "r");
     char id[100] = {0}, request1[100] = {0}, request2[100] = {0}, request3[100] = {0};
